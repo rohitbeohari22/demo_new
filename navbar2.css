@@ -1,0 +1,190 @@
+ html {
+overflow-x: hidden;
+}
+
+body{
+margin:0px;
+padding:0px;
+
+}
+*{
+    scroll-behavior: smooth;
+}
+ 
+.nav {
+ display: flex;
+justify-content: space-evenly;
+align-items: center;
+background-image: url('https://itemsstore.net/html/trito/img/hero/1.jpg');
+position:sticky;
+top:0px;
+}
+
+
+
+
+
+
+ .nav .midnav{
+display: flex;
+list-style-type: none;
+
+ }
+
+ .nav .midnav li a{
+     color: black;
+    text-decoration:none;
+    padding: 20px;
+ }
+ 
+
+ 
+ .nav .startnav{
+  list-style-type: none;
+
+ }
+
+.nav .startnav li img{
+    width: 90px;
+}
+
+.nav .endnav {
+
+ list-style-type: none;
+
+}
+
+.nav .endnav li a {
+text-decoration: none;
+color: white;
+background-color:rgb(37, 29, 78);
+padding: 10px 20px 10px 20px;
+
+}
+ 
+/* =======end navbar=== */
+
+ .hero{
+ border: 2px solid blueviolet;
+ display: flex;
+ background-image: url('https://itemsstore.net/html/trito/img/hero/1.jpg');
+ padding-top: 100px;
+justify-content: space-evenly;
+ 
+
+ }
+
+
+
+.hero div img {
+ width: 500px;
+position: relative;
+z-index: 5;
+}
+.hero .hero1{
+padding-top: 100px;
+
+}
+
+#owsomes i{
+
+    font-size: 24px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+
+
+
+#owsomes{
+
+    position: absolute;
+    top: 550px;
+    left: 900px;
+    z-index:6;
+}
+ /*  my client-- */
+
+ .client{
+ 
+    background-color: rgb(2, 2, 35);
+    /* border: 10px solid orangered; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 100px 50px 100px;
+ }
+ .client div img{
+    width: 250px;
+ }
+ @media(max-width:769px){
+    .client div img{
+        width: 100px;
+     }
+
+ }
+
+
+.clienth1{
+
+background-color:rgb(2, 2, 35);
+color: white;
+margin: 0px;
+padding:30px;
+}
+
+    /*----- dedication ------ */
+
+ #dedication{
+display: flex;
+justify-content: space-evenly;
+padding:80px;
+
+
+ }
+ 
+ /* =====skills==== */
+
+ #skills{
+background-image: url(https://img.freepik.com/free-photo/studio-background-concept-abstract-empty-light-gradient-purple-studio-room-background-product-plain-studio-background_1258-54717.jpg?w=1060&t=st=1708351765~exp=1708352365~hmac=7865a6a4f633e8bef4291e340272b6e92635ce2d5b9406f60228b1256b878270);
+display: grid;
+padding: 50px;
+width:500px;
+grid-template-columns: auto auto auto ;
+ }
+
+#skills div{
+    background-color: rgb(235, 232, 238);
+    border: 2px solid rgb(5, 5, 21);
+    padding:20px;
+    width:100px;
+    margin: 10px;
+}
+
+#mainskill{
+    display:grid;
+    grid-template-columns: auto auto;
+    padding:50px;
+    font-size:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
